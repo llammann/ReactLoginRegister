@@ -6,7 +6,7 @@ import { useState } from "react";
 import Login from "./components/Login";
 import Tablex from "./components/Table";
 import { ChakraProvider, Table } from "@chakra-ui/react";
-import Register from "./components/register";
+import Register from "./components/Register";
 
 function App() {
   const [users, setUsers] = useState([]);
